@@ -1,0 +1,24 @@
+.bg-primary{
+
+    background:linear-gradient(to right,	rgb(233, 107, 11),  rgb(2, 142, 128))
+}
+
+
+.my-icon{
+    font-size:100px!important ;
+    color: rgb(151, 157, 44);
+}
+
+
+.services-container{
+    border: 2px solid rgb(151, 157, 44)  ;
+    padding: 15px;
+    cursor: pointer;
+    transition: 300ms all ease-in-out;
+}
+
+.services-container:hover{
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
