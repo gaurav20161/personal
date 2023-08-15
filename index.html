@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-4-utilities.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Add these lines in your HTML head section -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+     <!-- navbar  ctrl+a    ctrl+k   ,  ctrl+f to wrap-->
+
+    <nav class="bg-primary">
+        <div class="container">
+            <div class="nav-wrapper">
+
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="#" class="brand-logo">TechSoft Canada</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html"><i class="material-icons left">home</i>    Home</a></li>
+                    <li><a href="badges.html"><i class="material-icons left">assignment_ind</i>  About</a></li>
+                    <li><a href="collapsible.html"><i class="material-icons left">call_end</i>Contact us</a></li>
+                </ul>
+            </div>
+    
+        </div>
+    </nav>
+
+
+     <!-- end of navbar-->
+
+
+<!-- section 1 for parallex-->
+
+<section>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="Image/Y7AxU06I.jpeg"></div>
+        <div class="container center-align mt-5 pt-5">
+            <h2  class="white-text center-align mt-5">TechSoft Canada</h2>
+            <p class="white-text center-align flow-text">Hey, this is my profile, Hire me</p>
+            <button class="btn bg-primary">Profile</button>
+        </div>
+    </div>
+
+</section>
+
+<!--bootstrap helper classes are alos used here-->
+
+<!-- end of section 1-->
+
+
+<!--section 2-->
+
+<section>
+    <div class="container">
+        <h3 class="center-align">Learn with me</h3>
+
+        <div class="row mt-5">
+            <div class="col s12 m4 l4">
+                <div class="services-container center-align">
+                    <i class="material-icons my-icon">airplay</i>
+                    <h3>Java Tutorial</h3>
+                    <p>Learn Java with me</p>
+                    <button class=" btn bg-primary">Learn</button>
+                </div>
+
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="services-container center-align">
+                    <i class="material-icons my-icon">airplay</i>
+                    <h3>Python Tutorial</h3>
+                    <p>Learn Java with me</p>
+                    <button class=" btn bg-primary">Learn</button>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="services-container center-align">
+                    <i class="material-icons my-icon">airplay</i>
+                    <h3>Spring Tutorial</h3>
+                    <p>Learn Java with me</p>
+                    <button class=" btn bg-primary">Learn</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--end of section 2-->
+
+
+
+
+<!--Section 3-->
+
+<section class="mt-5 p-5" style="background: url(Image/Y7AxU06I.jpeg);background-size: cover;background-attachment: fixed;" >
+
+    <div class="container mt-5 text-center pt-5">
+
+        <h3 class="center-align white-text">About Gaurav Kumar</h3>
+        <p class="center-align flow-text white-text">I am self-trained software engineer</p>
+
+        <p class="center-align flow-text white-text">If you want to know more about me, you can check my instagram and faceboook page</p>
+        <button class="btn bg-primary ">Know still more about me</button>
+    </div>
+</section>
+
+<!--end of section 3-->
+
+
+
+<!--Section 4-->
+<section class="mt-5 p-5">
+    <div class="container mt-5 pt-5">
+
+        <div class="row">
+            <div class="col s12 m6">
+
+                <img src="Image/OCI.jpg" class="responsive-img" alt="">
+
+            </div>
+
+            <div class="col s12 m6">
+
+                <ul class="collapsible">
+                    <li class="active">
+                      <div class="collapsible-header"><i class="material-icons">filter_drama</i>About me</div>
+                      <div class="collapsible-body center-align"><span>I am a software developer</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">place</i>About our work</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">whatshot</i>Contact us</div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+<div class="divider">
+
+</div>
+
+
+
+
+<!-- feedback section -->
+
+<div class="container">
+    <div class="row">
+        <div clas="col s12 m6  offset-m3 offset-l3 ">
+            <div class="card">
+                <div class="card-content">
+                    <h4>feedback</h4>
+
+                    <div class="row">
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Enter Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">phone</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Enter Phone</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Enter your message</label>
+                        </div>
+
+                        <div clas="container center-align">
+
+                            <button clas="btn bg-primary">Submit</button>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 
+end of feedback section -->
+<!--Section 4-->
+
+
+<!-- footer section -->
+
+<footer class="page-footer bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Official website of TechsoftCanada</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+<!-- 
+end of footer section -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of sidenav-->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="Image/Y7AxU06I.jpeg">
+                </div>
+                <a href="#user"><img class="circle" src="Image/OCI.jpg"></a>
+                <a href="#name"><span class="white-text name">Gaurav Kumar</span></a>
+                <a href="#email"><span class="white-text email">gauravnit2016@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>Website</a></li>
+        <li><a href="#!"><i class="material-icons">call_end</i>Contact us</a></li>
+        
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Social Links</a></li>
+        <li><a class="waves-effect" href="#!">Facebook</a></li>
+        <li><a class="waves-effect" href="#!">Instagram</a></li>
+        <li><a class="waves-effect" href="#!">Linked In</a></li>
+    </ul>
+    
+
+<!--end of sidenav-->
+
+
+
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+          integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+     <script src = "js/materialize.min.js"></script>
+
+     <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+              edge: 'right';
+        });
+    </script> -->
+
+    <script>
+            $(document).ready(function(){
+        $('.sidenav').sidenav({
+            edge: 'right'
+        });
+
+        $('.parallax').parallax();
+        $('.collapsible').collapsible();
+      });
+
+    </script>
+
+
+
+</body>
+</html>
